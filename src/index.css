@@ -12,3 +12,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(71, 207, 241);
+}
+
+.nav li {
+  margin-right: 15px;
+  list-style: none;
+  
+}
+.Header{
+font-weight: 18pt;
+color:green;
+background-color:rgb(71, 207, 241);
+margin-right:29em;
+}
