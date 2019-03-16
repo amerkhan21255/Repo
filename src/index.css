@@ -8,24 +8,69 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 .nav {
   display: flex;
   justify-content: flex-end;
-  background-color: rgb(71, 207, 241);
+  margin-top:-51px;
+  margin-right:110px;
+  color:rgba(0,0,0,.3);
 }
+.headerContainer{
+  height: 40px;
+  width: 100%;
+ }
 
-.nav li {
-  margin-right: 15px;
-  list-style: none;
+  ul{
+   list-style-type: none;
+  }
+
+  .Header h1{
   
-}
-.Header{
-font-weight: 18pt;
-color:green;
-background-color:rgb(71, 207, 241);
-margin-right:29em;
-}
+   color: #ffffff;
+   font-size: 15px;
+   display: inline-block;
+  }
+
+ .nav li{
+  
+  display: inline-block;
+  color: #ffffff;
+ }
+ .home{
+   text-align: center;
+
+ }
+ .link{
+   padding-right: 30px;
+   text-decoration: none;
+ }
+ h1{
+   color:green;
+   margin-left:110px;
+   font-size:18pt;
+ }
+ .maincontainer{
+  height:162px;
+  justify-content: center;
+ }
+ .logo-font{
+   font-size:36pt;
+   text-align:center;
+   color: white;
+   margin-right:123px;
+ }
+ p{
+   color:white;
+   text-align:center;
+ }
+ .banner {
+  background-color:#5cb85c;
+ }
+ .article {
+   color: #000000;
+ }
+
+ .article p {
+   color: #000000;
+   text-align: left;
+ }

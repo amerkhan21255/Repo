@@ -5,7 +5,7 @@ import Nav from './Nav';
 import Home from './components/Home';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import SignIn from './components/SignIn';
-import SignOut from './components/SignOut';
+import SignUp from './components/SignUp';
 
 class App extends Component {
   render() {
@@ -18,11 +18,8 @@ class App extends Component {
           
             <Route exact path='/' component={Home} />
             <Route exact path='/components/SignIn' component={SignIn} />
-            <Route path = '/components/SignOut' component ={SignOut} />
-            {/* { <Route path='/popular' component={Popular} />}
-            { <Route render={function () { } } /> */}
-      
-        </div>
+            <Route path = '/components/SignUp' component ={SignUp} />
+           </div>
             </Router>
     );
           }
